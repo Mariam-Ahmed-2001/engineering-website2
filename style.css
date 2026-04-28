@@ -326,7 +326,7 @@ header .nav-links{
     background:var(--background-gradient);
     color:#fff;
     padding:10px 15px;
-    border-radius:5px;
+    border-radius:10px;
     font-size:14px;
     backdrop-filter:blur(8px);
     display: flex;
