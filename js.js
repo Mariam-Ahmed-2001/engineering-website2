@@ -18,6 +18,16 @@ navOverlay.addEventListener("click", function(){
     navOverlay.classList.remove("show");
     menuToggle.innerHTML = '<i class="fa-solid fa-bars"></i>';
 });
+const mobileLinks = document.querySelectorAll(".main-navigation .nav-links a");
+
+mobileLinks.forEach(link=>{
+    link.addEventListener("click", function(){
+
+        mobileMenu.classList.remove("active");
+        navOverlay.classList.remove("show");
+        menuToggle.innerHTML = '<i class="fa-solid fa-bars"></i>';
+    });
+});
 
 
 
