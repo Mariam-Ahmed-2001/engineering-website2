@@ -98,7 +98,12 @@ header .nav-links {
     cursor: pointer;
     color: var(--primaryDark);
 }
-
+.containerNav h4 {
+    color:var(--primaryDark);
+    font-size: 1.1rem;
+    font-weight: 700;
+    display: none;
+}
 .nav-overlay {
     position: fixed;
     inset: 0;
@@ -1326,7 +1331,7 @@ header .nav-links {
 }
 
 .branch-map-wrapper {
-    width: 92%;
+    width: 95%;
     max-width: 1500px;
     margin: auto;
     display: grid;
@@ -1810,6 +1815,9 @@ position: fixed;
     .box3,
     .box4 {
         display: none;
+    }
+    .containerNav h4{
+        display: block;
     }
 
 }

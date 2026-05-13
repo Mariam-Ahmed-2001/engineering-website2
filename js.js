@@ -77,7 +77,7 @@ emailAction.addEventListener("click", function(){
 الخدمة المطلوبة: ${formData.clientService}
 تفاصيل إضافية: ${formData.clientNotes}`;
 
-    window.location.href = `mailto:yourmail@example.com?subject=${encodeURIComponent(subjectMail)}&body=${encodeURIComponent(bodyMail)}`;
+    window.location.href = `mailto:gozorconstruction@gmail.com?subject=${encodeURIComponent(subjectMail)}&body=${encodeURIComponent(bodyMail)}`;
 });
 
 
