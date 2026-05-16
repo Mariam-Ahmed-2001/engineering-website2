@@ -1,3 +1,4 @@
+/////Menu////
 const menuToggle = document.getElementById("menuToggle");
 const mobileMenu = document.getElementById("mobileMenu");
 const navOverlay = document.getElementById("navOverlay");
@@ -29,7 +30,7 @@ mobileLinks.forEach(link=>{
     });
 });
 
-
+///////Form////////
 
 const whatsappAction = document.getElementById("sendWhatsapp");
 const emailAction = document.getElementById("sendEmail");
@@ -78,8 +79,10 @@ emailAction.addEventListener("click", function(){
 تفاصيل إضافية: ${formData.clientNotes}`;
 
     window.location.href = `mailto:gozorconstruction@gmail.com?subject=${encodeURIComponent(subjectMail)}&body=${encodeURIComponent(bodyMail)}`;
+    console.log("Email action triggered");
 });
 
+////// projects filter /////
 
 const filterButtons = document.querySelectorAll(".filter-btn");
 const allProjects = document.querySelectorAll(".project-unit");
